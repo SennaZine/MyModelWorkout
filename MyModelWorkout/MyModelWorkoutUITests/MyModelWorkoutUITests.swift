@@ -2,7 +2,7 @@
 //  MyModelWorkoutUITests.swift
 //  MyModelWorkoutUITests
 //
-//  Created by Sanae Zine on 16/04/2020.
+//  Created by Senna Zine on 16/04/2020.
 //  Copyright © 2020 Senna Zine. All rights reserved.
 //
 
