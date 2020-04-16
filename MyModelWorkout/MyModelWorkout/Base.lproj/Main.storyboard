@@ -1460,7 +1460,7 @@
         <!--View Controller-->
         <scene sceneID="r4h-lT-zJz">
             <objects>
-                <viewController id="1lg-a1-XcS" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginScreen" id="1lg-a1-XcS" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SFa-w3-J5t"/>
                         <viewControllerLayoutGuide type="bottom" id="ZgY-KA-pWW"/>
@@ -1472,6 +1472,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fec-lG-woK">
                                 <rect key="frame" x="213" y="291" width="115" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration" identifier="LoginText">
+                                    <accessibilityTraits key="traits" button="YES"/>
+                                </accessibility>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="115" id="35a-AJ-tch"/>
                                     <constraint firstAttribute="height" constant="30" id="iSc-is-aaC"/>
@@ -1487,6 +1490,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nEv-4x-I2V">
                                 <rect key="frame" x="130" y="507" width="115" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" staticText="YES"/>
+                                </accessibility>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="115" id="9eP-a0-hVN"/>
                                     <constraint firstAttribute="height" constant="30" id="oiX-2U-wta"/>
@@ -1515,6 +1521,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jm3-x2-Spk">
                                 <rect key="frame" x="47" y="55" width="281" height="30"/>
                                 <color key="backgroundColor" red="0.20431379799999999" green="0.58210943039999996" blue="0.92862235920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="fbButton">
+                                    <accessibilityTraits key="traits" staticText="YES"/>
+                                </accessibility>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="6Tj-HD-lyY"/>
                                 </constraints>
@@ -1524,6 +1533,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Heb je nog geen account? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="608-BU-ssm">
                                 <rect key="frame" x="85" y="478" width="205" height="21"/>
+                                <accessibility key="accessibilityConfiguration" identifier="accountText"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="asP-tC-dKO"/>
                                 </constraints>
@@ -1533,6 +1543,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dit werkt nog niet! Gewoon op inloggen drukken en dan kom je in de app" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eT6-p3-T4j">
                                 <rect key="frame" x="47" y="109" width="281" height="62"/>
+                                <accessibility key="accessibilityConfiguration" identifier="NAText"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1540,6 +1551,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dr9-cc-Dl8">
                                 <rect key="frame" x="82" y="376" width="211" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration" identifier="wwText">
+                                    <accessibilityTraits key="traits" staticText="YES"/>
+                                </accessibility>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="ICe-A9-LAR"/>
                                 </constraints>

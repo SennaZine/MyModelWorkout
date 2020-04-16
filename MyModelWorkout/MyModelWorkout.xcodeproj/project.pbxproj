@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A7675822448F48B00D68356 /* MyModelWorkoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7675812448F48B00D68356 /* MyModelWorkoutUITests.swift */; };
+		3A76758C244901C600D68356 /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A76758B244901C600D68356 /* LoginTest.swift */; };
 		CEFE88EE1DEF6D4A00A73640 /* Profielpagina.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE88ED1DEF6D4A00A73640 /* Profielpagina.swift */; };
 		FF9970F91DE8E4B70023CAB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9970F81DE8E4B70023CAB4 /* AppDelegate.swift */; };
 		FF9970FB1DE8E4B70023CAB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9970FA1DE8E4B70023CAB4 /* ViewController.swift */; };
@@ -33,6 +34,7 @@
 		3A76757F2448F48B00D68356 /* MyModelWorkoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyModelWorkoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7675812448F48B00D68356 /* MyModelWorkoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModelWorkoutUITests.swift; sourceTree = "<group>"; };
 		3A7675832448F48B00D68356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A76758B244901C600D68356 /* LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
 		CEFE88ED1DEF6D4A00A73640 /* Profielpagina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profielpagina.swift; sourceTree = "<group>"; };
 		FF9970F51DE8E4B70023CAB4 /* MyModelWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyModelWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9970F81DE8E4B70023CAB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				3A7675812448F48B00D68356 /* MyModelWorkoutUITests.swift */,
+				3A76758B244901C600D68356 /* LoginTest.swift */,
 				3A7675832448F48B00D68356 /* Info.plist */,
 			);
 			path = MyModelWorkoutUITests;
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A7675822448F48B00D68356 /* MyModelWorkoutUITests.swift in Sources */,
+				3A76758C244901C600D68356 /* LoginTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
